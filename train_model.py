@@ -112,7 +112,7 @@ history = model.fit(
 
 model.save("symbol_classifier.h5")
 
-print("✅ Training complete. Model saved as symbol_classifier.h5")
+print(" Training complete. Model saved as symbol_classifier.h5")
 print(train_data.class_indices)
 
 for i in range(10):
