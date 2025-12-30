@@ -5,8 +5,7 @@ Machine Learning project for symbol classification.
 ## Files
 - `prepare_data.py` - Data preprocessing and augmentation
 - `train_model.py` - Model training script
-- `test.py` - Testing script
-- `garbage.py` - Utility script
+- `garbage.py` - Testing script
 - `.gitignore` - Git ignore file
 
 ## Usage
