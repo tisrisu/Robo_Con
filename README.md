@@ -12,4 +12,4 @@ Machine Learning project for symbol classification.
 ## Usage
 1. Prepare data: `python prepare_data.py`
 2. Train model: `python train_model.py`
-3. Test model: `python test.py`
+3. Test model: `python garbage.py`
