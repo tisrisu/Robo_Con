@@ -1,3 +1,5 @@
+# model training based on given symbols 
+
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.applications import MobileNetV2
