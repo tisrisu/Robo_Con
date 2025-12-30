@@ -1,3 +1,5 @@
+# augmentation and data preprocessing
+
 import os 
 import cv2
 from tensorflow.keras.preprocessing.image import ImageDataGenerator 
