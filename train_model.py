@@ -1,4 +1,4 @@
-# model training based on given symbols 
+# model training based on given symbols (16 real and 16 fake)
 
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
