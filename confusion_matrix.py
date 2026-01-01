@@ -1,3 +1,5 @@
+# to check the accuracy 
+
 import numpy as np
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
@@ -33,3 +35,4 @@ disp = ConfusionMatrixDisplay(
 disp.plot(cmap="Blues", xticks_rotation=90)
 plt.title("Confusion Matrix")
 plt.show()
+
