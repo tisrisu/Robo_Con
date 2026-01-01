@@ -1,3 +1,5 @@
+# fine tuning (majorly to resolve red background issue)
+
 import os
 import tensorflow as tf
 from tensorflow.keras.models import load_model
@@ -74,3 +76,4 @@ history = model.fit(
 model.save("symbol_classifier_finetuned.h5")
 
 print(" Fine-tuning complete. Model saved as symbol_classifier_finetuned.h5")
+
