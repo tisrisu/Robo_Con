@@ -1,3 +1,5 @@
+# first model training and setup
+
 import tensorflow as tf 
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Model
@@ -84,4 +86,5 @@ print(train_data.class_indices)
 
 for i in range(10):
     x, y = next(train_data)
+
     print("Label index:", np.argmax(y[0]))
