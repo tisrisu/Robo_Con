@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model("symbol_classifier.h5")
+model = load_model("symbol_classifier_v2.h5")
 
 cap = cv2.VideoCapture(0)
 
