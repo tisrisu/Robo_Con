@@ -44,7 +44,7 @@ while True:
 
     cv2.imshow("Symbol Detection", frame)
 
-    if confidence >= 0.70:
+    if confidence >= 0.85:
         print(f"Detected: Symbol {symbol_number} ({label}) with {confidence*100:.2f}% confidence")
         break
 
