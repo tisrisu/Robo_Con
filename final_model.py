@@ -1,3 +1,5 @@
+#FINAL PRODUCT
+
 import os
 import numpy as np
 from tensorflow.keras.models import load_model
@@ -62,3 +64,4 @@ history = model.fit(
 
 model.save("symbol_classifier_final.h5")
 print(" Fine-tuned model saved as symbol_classifier_final.h5")
+
