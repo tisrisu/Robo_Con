@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model("symbol_classifier_v2.h5")
+model = load_model("symbol_classifier_final.h5")
 
 cap = cv2.VideoCapture(0)
 
@@ -44,7 +44,7 @@ while True:
 
     cv2.imshow("Symbol Detection", frame)
 
-    if confidence >= 0.85:
+    if confidence >= 0.80:
         print(f"Detected: Symbol {symbol_number} ({label}) with {confidence*100:.2f}% confidence")
         break
 
