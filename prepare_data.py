@@ -1,4 +1,4 @@
-# augmentation and data preprocessing
+# augmentation and data preprocessing (white background images)
 
 import os 
 import cv2
